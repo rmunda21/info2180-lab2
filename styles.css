@@ -1,0 +1,98 @@
+p{
+    font-size: 18px;
+    color:#2D3748;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+#myimage{
+    border-radius: 100px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+#blogtitle1, #blogtitle2{
+    margin-bottom: 0em;
+}
+#image1, #image2{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 5px
+}
+header{
+    grid-column: span 3;
+    background: #63B3ED;
+    color:#FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+#blogheader{
+    margin: 0%;
+}
+#blogpara1, #blogpara2{
+    text-align: justify;
+}
+#blogtitle1,#blogtitle2{
+    font-size: 32px;
+    color: #48BB78;
+}
+#round{
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+}
+article {
+    grid-column: 1;
+    padding-right: 50px ;
+  }
+#author-date-1,#author-date-2{
+    color: #718096;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#quote{
+    text-align: center;
+    font-size: 18px;
+    margin: 0%;
+    color: #FFFFFF;
+}
+aside{
+    grid-column: 2;
+}
+#social-media-h,#archives-h{
+    color: #48BB78;
+}
+#about-h{
+    color: #000000;
+    font-family: Georgia,
+    'Times New Roman', Times, serif;;
+}
+.grid-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+footer{
+    grid-column: 1;
+}
+.about-container{
+    background-color: #E2E8F0;
+    padding: 1px 5px 1px 5px;
+    margin-right: 10px;
+}
+ul{
+    color: #4299E1;
+}
+footer{
+    background-color:  #2C5282;
+    grid-column: span 2;
+}
+#footer{
+    color: #FFFFFF;
+}
